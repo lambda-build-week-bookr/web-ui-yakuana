@@ -1,0 +1,53 @@
+
+.header-container {
+    // border: @border-size rebeccapurple; 
+    height: 70px; 
+    .column(); 
+    justify-content: center;
+    background-color: @ui-dark-blue;
+    color: @ui-white;
+    
+    .header {
+        // border: @border-size red;
+        height: 40px; 
+        .row(); 
+        justify-content: space-between; 
+        margin-left: auto; 
+        margin-right: auto; 
+
+        @media @phone {
+            width: 470px; 
+        }
+    
+        h1 { 
+            // border: @border-size blue; 
+            font-family: @charter-font; 
+            height: 35px; 
+        }
+        
+        .navigation {
+            // border: @border-size green; 
+            .row(); 
+            justify-content: space-around; 
+
+            @media @phone {
+                width: 70%; 
+            }
+    
+            a {
+                // border: @border-size orange; 
+                .row(); 
+                justify-content: space-around; 
+                padding-top: 10px; 
+                font-size: 1.7rem; 
+                text-decoration: none; 
+                color: @ui-white;
+            }
+    
+            a:hover {
+                color: darken(@ui-white, 70%); 
+            }
+        }
+    }
+}
+
