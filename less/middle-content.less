@@ -1,0 +1,87 @@
+// mission and middle content less 
+
+.mission-container {
+    // border: @border-size red; 
+    background: @ui-off-white;
+    height: 350px; 
+    .column(); 
+    justify-content: space-around; 
+
+    .mission {
+        // border: @border-size saddlebrown;
+        height: 180px;  
+        text-align: center; 
+
+        .column(); 
+        justify-content: space-between; 
+        .mission-one {
+            // border: @border-size blue; 
+            font-size: 2.7rem; 
+            font-weight: bold; 
+            color: @ui-middle-grey; 
+        }
+    
+        .mission-two {
+            // border: @border-size orange; 
+            color: @ui-dark-grey; 
+        }
+    
+    }
+
+    .line {
+        border-top: @border-size @ui-light-grey;
+        width: 75%; 
+        margin: 0 auto 0 auto; 
+    }
+}
+
+.middle-content-container {
+    border: @border-size red; 
+    height: 1930px; 
+    background: @ui-off-white;
+
+    h1 {
+        border: @border-size seagreen; 
+        background: @ui-light-blue;
+        color: @ui-white; 
+        font-weight: bold; 
+        font-size: 3.7rem;  
+        height: 65px; 
+        padding: 12px 0 0 10px; 
+    }
+
+    img {
+        width: 500px; 
+    }
+
+    p {
+        border: @border-size salmon; 
+        background: @ui-light-blue;
+        color: @ui-white; 
+        font-size: 2.3rem;  
+        height: 160px; 
+        text-align: center; 
+        padding: 30px 0 0 0; 
+    }
+
+    .divider {
+        height: 100px; 
+
+        .line {
+            border-bottom: @border-size @ui-light-grey;
+            width: 85%; 
+            margin: 0 auto 0 auto; 
+            padding: 50px 0 0 0;
+        }
+    }
+
+    .bottom-divider {
+        .line {
+            border-bottom: @border-size @ui-light-grey;
+            width: 85%; 
+            margin: 0 auto 0 auto; 
+            padding: 50px 0 0 0;
+        }
+    }
+
+}

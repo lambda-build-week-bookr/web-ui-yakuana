@@ -1,0 +1,117 @@
+// header and top-content less 
+
+.top-content-container {
+    border: @border-size purple; 
+    color: @ui-white; 
+    position: relative;
+
+    @media @phone {
+        height: 500px; 
+    }
+    
+    img {
+        // border: @border-size orange; 
+        height: 500px;
+        width: 100%;
+        position: absolute; 
+        
+    }
+
+    .header-container {
+        // border: @border-size rebeccapurple; 
+        height: 70px; 
+        .column(); 
+        justify-content: center;
+        background:  linear-gradient(rgba(6, 58, 101, 0.9), rgba(0, 0, 0, 0.0));
+        color: @ui-white;
+        position: relative;
+        
+        .header {
+            // border: @border-size red;
+            height: 40px; 
+            .row(); 
+            justify-content: space-between; 
+            margin-left: auto; 
+            margin-right: auto; 
+            
+    
+            @media @phone {
+                width: 470px; 
+            }
+        
+            h1 { 
+                // border: @border-size blue; 
+                font-family: @charter-font; 
+                height: 35px; 
+            }
+            
+            .navigation {
+                // border: @border-size green; 
+                .row(); 
+                justify-content: space-around; 
+                
+                @media @phone {
+                    width: 70%; 
+                }
+        
+                a {
+                    // border: @border-size orange; 
+                    .row(); 
+                    justify-content: space-around; 
+                    padding-top: 10px; 
+                    font-size: 1.7rem; 
+                    text-decoration: none; 
+                    color: @ui-white;
+                }
+        
+                a:hover {
+                    color: darken(@ui-white, 20%); 
+                }
+            }
+        }
+    }
+    
+    .top-content {
+        // border: @border-size red; 
+        position: relative;
+        height: 400px; 
+        text-align: left;
+        .column(); 
+        justify-content: space-evenly;
+        
+        .top-text {
+            padding-top: 80px; 
+
+            p {
+                // border: @border-size red; 
+                width: 300px; 
+                padding: 0 0 10px 20px;
+
+            }
+    
+            .slogan { 
+                font-size: 3rem; 
+                font-weight: bold; 
+                padding-top: 20px; 
+            }
+        
+        }
+       
+        .sign-up-button {
+            // border: @border-size blue; 
+            
+            // .buttons-dimensions(@bHeight, @bWidth, @topPadding)
+            .buttons-dimensions(50px, 140px, 10px);
+    
+            // .buttons-color(@bgColor, @textColor, @bRadius)
+            .buttons-color(@ui-orange, @ui-white, 10px);
+
+            text-align: center; 
+            font-size: 2.5rem; 
+            margin-left: 300px; 
+        }
+
+    }
+
+}
+
