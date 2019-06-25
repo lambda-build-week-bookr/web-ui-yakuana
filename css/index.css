@@ -246,12 +246,19 @@ p {
   height: 50px;
   width: 140px;
   padding-top: 10px;
-  background: #EE8B4A;
+  background: #F08A47;
   color: #ffffff;
   border-radius: 10px;
   text-align: center;
   font-size: 2.5rem;
   margin-left: 300px;
+}
+.top-content-container .top-content .sign-up-button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.top-content-container .top-content .sign-up-button a:hover {
+  color: #4d4d4d;
 }
 .mission-container {
   background: #fff8f3;
@@ -348,7 +355,7 @@ p {
   padding: 50px 0 50px 20px;
 }
 .reviews-container section {
-  border-left: 4px solid #EE8B4A;
+  border-left: 4px solid #F08A47;
   margin: 0 auto 0 auto;
   height: 380px;
   width: 90%;
@@ -390,8 +397,48 @@ p {
   border: none;
 }
 .reviews-container .julia-review .intro {
-  border-left: 4px solid #EE8B4A;
+  border-left: 4px solid #F08A47;
 }
 .reviews-container .julia-review .review-bottom {
-  border-left: 4px solid #EE8B4A;
+  border-left: 4px solid #F08A47;
+}
+.bottom-content {
+  background: #406197;
+  color: #ffffff;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.bottom-content p {
+  width: 75%;
+  margin: 0 auto 0 auto;
+}
+.bottom-content .sign-up-free-button {
+  height: 50px;
+  width: 200px;
+  padding-top: 10px;
+  background: #F08A47;
+  color: #ffffff;
+  border-radius: 12px;
+  font-weight: bold;
+}
+.bottom-content .sign-up-free-button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.bottom-content .sign-up-free-button a:hover {
+  color: #333333;
+}
+footer {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15px 5px 15px;
+}
+footer .legal-stuff {
+  border: 1px solid red;
+  text-align: right;
 }

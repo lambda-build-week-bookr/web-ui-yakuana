@@ -1,1 +1,36 @@
 // bottom content less 
+
+.bottom-content {
+    // border: @border-size red;
+    background: @ui-light-blue;
+    color: @ui-white;  
+    height: 200px; 
+    text-align: center; 
+    .column(); 
+    justify-content: space-evenly; 
+
+    p {
+        width: 75%; 
+        margin: 0 auto 0 auto; 
+    }
+
+    .sign-up-free-button {
+
+        // .buttons-dimensions(@bHeight, @bWidth, @topPadding)
+        .buttons-dimensions(50px, 200px, 10px); 
+
+        // .buttons-color(@bgColor, @textColor, @bRadius)
+        .buttons-color(@ui-orange, @ui-white, 12px);
+
+        font-weight: bold; 
+
+        a {
+            text-decoration: none; 
+            color: @ui-white; 
+        }
+
+        a:hover {
+            color: darken(@ui-white, 80%); 
+        }
+    }
+}
