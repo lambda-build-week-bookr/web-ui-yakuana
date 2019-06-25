@@ -175,11 +175,7 @@ p {
   border: 1px solid purple;
   color: #ffffff;
   position: relative;
-}
-@media (max-width: 500px) {
-  .top-content-container {
-    height: 500px;
-  }
+  height: 500px;
 }
 .top-content-container img {
   height: 500px;
@@ -202,11 +198,7 @@ p {
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-}
-@media (max-width: 500px) {
-  .top-content-container .header-container .header {
-    width: 470px;
-  }
+  width: 470px;
 }
 .top-content-container .header-container .header h1 {
   font-family: "Bitstream Charter";
@@ -216,11 +208,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-@media (max-width: 500px) {
-  .top-content-container .header-container .header .navigation {
-    width: 70%;
-  }
+  width: 70%;
 }
 .top-content-container .header-container .header .navigation a {
   display: flex;
@@ -309,7 +297,7 @@ p {
   padding: 12px 0 0 10px;
 }
 .middle-content-container img {
-  height: 300px;
+  height: 320px;
   width: 100%;
   position: absolute;
 }
@@ -338,6 +326,72 @@ p {
   margin: 0 auto 0 auto;
   padding: 50px 0 0 0;
 }
-.middle-content-container .bottom-divider {
+.middle-content-container .bottom-space {
+  height: 40px;
+}
+.bottom-divider {
+  background: #ffffff;
   height: 60px;
+}
+.bottom-divider .line {
+  height: 25px;
+  border-bottom: 1px solid #979797;
+  width: 85%;
+  margin: 0 auto 0 auto;
+}
+.reviews-container {
+  background: #fff8f3;
+}
+.reviews-container h1 {
+  color: #454344;
+  font-weight: bold;
+  padding: 50px 0 50px 20px;
+}
+.reviews-container section {
+  border-left: 4px solid #EE8B4A;
+  margin: 0 auto 0 auto;
+  height: 380px;
+  width: 90%;
+}
+.reviews-container section .intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 10px 30px;
+}
+.reviews-container section .intro img {
+  border-radius: 90px;
+  width: 40%;
+  height: 40%;
+}
+.reviews-container section .intro .name-top {
+  border-bottom: 1px solid #717070;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 90px;
+  width: 60%;
+}
+.reviews-container section .intro .name-top h3 {
+  font-size: 2.6rem;
+  padding-left: 35px;
+}
+.reviews-container section .intro .name-top p {
+  color: #717070;
+  font-weight: lighter;
+  padding-left: 35px;
+}
+.reviews-container section .review-bottom {
+  padding: 15px 0 0 20px;
+  color: #406197;
+  height: 150px;
+}
+.reviews-container .julia-review {
+  border: none;
+}
+.reviews-container .julia-review .intro {
+  border-left: 4px solid #EE8B4A;
+}
+.reviews-container .julia-review .review-bottom {
+  border-left: 4px solid #EE8B4A;
 }

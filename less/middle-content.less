@@ -54,7 +54,7 @@
     }
 
     img {
-        height: 300px; 
+        height: 320px; 
         width: 100%; 
         position: absolute;
     }
@@ -90,7 +90,20 @@
         }
     }
 
-    .bottom-divider{
-        height: 60px; 
+    .bottom-space {
+        height: 40px; 
+    }
+}
+
+.bottom-divider {
+    // border: @border-size purple;
+    background: @ui-white; 
+    height: 60px; 
+
+    .line {
+        height: 25px; 
+        border-bottom: @border-size @ui-light-grey;
+        width: 85%; 
+        margin: 0 auto 0 auto; 
     }
 }
