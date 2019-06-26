@@ -166,7 +166,6 @@ p {
   margin: 0 auto;
 }
 .top-content-container {
-  border: 1px solid purple;
   color: #ffffff;
   position: relative;
   height: 500px;
@@ -340,18 +339,45 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
+@media (min-width: 500px) {
+  .mission-container .mission {
+    height: 200px;
+  }
+}
 .mission-container .mission .mission-one {
   font-size: 2.7rem;
   font-weight: bold;
   color: #717070;
 }
+@media (min-width: 500px) {
+  .mission-container .mission .mission-one {
+    width: 50%;
+    font-size: 3.4rem;
+    margin: 0 auto 0 auto;
+  }
+}
 .mission-container .mission .mission-two {
   color: #454344;
+}
+@media (min-width: 500px) {
+  .mission-container .mission .mission-two {
+    margin: 0 auto 0 auto;
+    width: 60%;
+    font-size: 2.5rem;
+  }
+  .mission-container .mission .mission-two br {
+    display: none;
+  }
 }
 .mission-container .line {
   border-top: 1px solid #979797;
   width: 75%;
   margin: 0 auto 0 auto;
+}
+@media (min-width: 500px) {
+  .mission-container .line {
+    width: 68%;
+  }
 }
 .middle-content-container {
   height: 1600px;

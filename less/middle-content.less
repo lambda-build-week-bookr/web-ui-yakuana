@@ -7,23 +7,44 @@
     .column(); 
     justify-content: space-around; 
 
+
     .mission {
         // border: @border-size saddlebrown;
         height: 180px;  
         text-align: center; 
-
         .column(); 
         justify-content: space-between; 
+
+        @media @desktop {
+            height: 200px;
+        }
+
         .mission-one {
             // border: @border-size blue; 
             font-size: 2.7rem; 
             font-weight: bold; 
             color: @ui-middle-grey; 
+
+            @media @desktop {
+                width: 50%; 
+                font-size: 3.4rem; 
+                margin: 0 auto 0 auto; 
+            }
         }
     
         .mission-two {
             // border: @border-size orange; 
             color: @ui-dark-grey; 
+
+            @media @desktop {
+                br {
+                    display: none; 
+                }
+
+                margin: 0 auto 0 auto; 
+                width: 60%; 
+                font-size: 2.5rem; 
+            }
         }
     
     }
@@ -32,6 +53,10 @@
         border-top: @border-size @ui-light-grey;
         width: 75%; 
         margin: 0 auto 0 auto; 
+
+        @media @desktop {
+            width: 68%; 
+        }
     }
 }
 
