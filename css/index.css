@@ -502,10 +502,28 @@ p {
 .reviews-container {
   background: #fff8f3;
 }
+@media (min-width: 600px) {
+  .reviews-container {
+    display: flex;
+    flex-direction: column;
+    height: 560px;
+  }
+  .reviews-container .reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
 .reviews-container h1 {
   color: #454344;
   font-weight: bold;
   padding: 50px 0 50px 20px;
+}
+@media (min-width: 600px) {
+  .reviews-container h1 {
+    font-size: 3.8rem;
+    padding: 50px 0 50px 50px;
+  }
 }
 .reviews-container section {
   border-left: 4px solid #F08A47;
@@ -513,16 +531,37 @@ p {
   height: 380px;
   width: 90%;
 }
+@media (min-width: 600px) {
+  .reviews-container section {
+    border: none;
+    width: 27.5%;
+    margin: 20px 0 20px 0;
+  }
+}
 .reviews-container section .intro {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0 0 10px 30px;
 }
+@media (min-width: 600px) {
+  .reviews-container section .intro {
+    height: 170px;
+    width: 100%;
+    padding: 0 0 10px 0;
+  }
+}
 .reviews-container section .intro img {
   border-radius: 90px;
   width: 40%;
   height: 40%;
+}
+@media (min-width: 600px) {
+  .reviews-container section .intro img {
+    width: 170px;
+    height: 170px;
+    border-radius: 0;
+  }
 }
 .reviews-container section .intro .name-top {
   border-bottom: 1px solid #717070;
@@ -546,14 +585,32 @@ p {
   color: #406197;
   height: 150px;
 }
+@media (min-width: 600px) {
+  .reviews-container section .review-bottom {
+    padding: 25px 0 0 0;
+  }
+  .reviews-container section .review-bottom p br {
+    display: none;
+  }
+}
 .reviews-container .julia-review {
   border: none;
 }
 .reviews-container .julia-review .intro {
   border-left: 4px solid #F08A47;
 }
+@media (min-width: 600px) {
+  .reviews-container .julia-review .intro {
+    border: none;
+  }
+}
 .reviews-container .julia-review .review-bottom {
   border-left: 4px solid #F08A47;
+}
+@media (min-width: 600px) {
+  .reviews-container .julia-review .review-bottom {
+    border: none;
+  }
 }
 .bottom-content {
   background: #406197;
