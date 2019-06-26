@@ -814,3 +814,35 @@ footer .legal-container .legal-stuff {
 .about-top-content-container .about-header-container .about-header .navigation a:hover {
   color: #cccccc;
 }
+.about-top-content-container .about-top-content {
+  text-align: center;
+  position: absolute;
+  height: 70%;
+}
+.about-top-content-container .about-top-content .top-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about-top-content-container .about-top-content p {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+.about-top-content-container .about-top-content .motto {
+  border: 4px solid #ce590a;
+  font-size: 2.7rem;
+  font-weight: bold;
+  font-family: "Bitstream Charter";
+  padding: 20px;
+}
+.about-top-content-container .about-top-content .meet-us {
+  font-size: 4rem;
+  color: #ffffff;
+  font-weight: normal;
+  border: none;
+}
+.introduction-container {
+  border: 1px solid red;
+  background: #fff8f3;
+}
