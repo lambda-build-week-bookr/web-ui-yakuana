@@ -1,13 +1,37 @@
 // footer less 
 
 footer {
-    border: @border-size red; 
-    .row(); 
-    justify-content: space-between; 
-    padding: 0 15px 5px 15px; 
+    // border: @border-size red; 
+    background: @ui-dark-white;
+    color: @ui-dark-grey; 
 
-    .legal-stuff {
-        border: @border-size red; 
-        text-align: right; 
+    .social-media {
+        border-bottom: @border-size @ui-dark-grey; 
+        width: 85%; 
+        .row(); 
+        justify-content: space-between; 
+        margin: 0 auto 0 auto;
+        padding: 40px 0 20px 0;  
+
+        i {
+            font-size: 8rem; 
+        }
     }
+
+    .legal-container {
+        // border: @border-size purple;
+        height: 80px;
+        .row(); 
+        justify-content: space-between; 
+        padding: 20px 15px 0 20px; 
+
+        .credit {
+            font-size: 2rem; 
+        }
+        .legal-stuff {
+            // border: @border-size red; 
+            text-align: right; 
+        }
+    }
+    
 }
