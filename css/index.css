@@ -257,17 +257,46 @@ p {
   flex-direction: column;
   justify-content: space-evenly;
 }
+@media (min-width: 500px) {
+  .top-content-container .top-content {
+    height: 800px;
+  }
+}
 .top-content-container .top-content .top-text {
   padding-top: 80px;
+}
+@media (min-width: 500px) {
+  .top-content-container .top-content .top-text {
+    padding-top: 0px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
 }
 .top-content-container .top-content .top-text p {
   width: 300px;
   padding: 0 0 10px 20px;
 }
+@media (min-width: 500px) {
+  .top-content-container .top-content .top-text p {
+    width: 30%;
+    padding: 10px 0 0 50px;
+    font-size: 2.5rem;
+  }
+  .top-content-container .top-content .top-text p br {
+    display: none;
+  }
+}
 .top-content-container .top-content .top-text .slogan {
   font-size: 3rem;
   font-weight: bold;
   padding-top: 20px;
+}
+@media (min-width: 500px) {
+  .top-content-container .top-content .top-text .slogan {
+    font-size: 5rem;
+  }
 }
 .top-content-container .top-content .sign-up-button {
   height: 50px;
@@ -279,6 +308,16 @@ p {
   text-align: center;
   font-size: 2.5rem;
   margin-left: 300px;
+}
+@media (min-width: 500px) {
+  .top-content-container .top-content .sign-up-button {
+    height: 70px;
+    width: 250px;
+    padding-top: 17px;
+    font-size: 3rem;
+    margin-left: 70%;
+    border-radius: 15px;
+  }
 }
 .top-content-container .top-content .sign-up-button a {
   text-decoration: none;
