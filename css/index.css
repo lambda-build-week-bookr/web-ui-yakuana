@@ -724,3 +724,93 @@ footer .legal-container .legal-stuff {
     font-size: 1.5rem;
   }
 }
+.about-top-content-container {
+  color: #ffffff;
+  position: relative;
+  height: 500px;
+}
+@media (min-width: 600px) {
+  .about-top-content-container {
+    height: 900px;
+  }
+}
+.about-top-content-container img {
+  height: 500px;
+  width: 100%;
+  position: absolute;
+}
+@media (min-width: 600px) {
+  .about-top-content-container img {
+    height: 900px;
+  }
+}
+.about-top-content-container .about-header-container {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(rgba(6, 58, 101, 0.9), rgba(0, 0, 0, 0));
+  color: #ffffff;
+  position: relative;
+}
+.about-top-content-container .about-header-container .about-header {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  width: 470px;
+}
+@media (min-width: 600px) {
+  .about-top-content-container .about-header-container .about-header {
+    height: 50px;
+    width: 95%;
+    padding-top: 10px;
+  }
+}
+.about-top-content-container .about-header-container .about-header h1 {
+  font-family: "Bitstream Charter";
+  height: 35px;
+}
+.about-top-content-container .about-header-container .about-header h1 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.about-top-content-container .about-header-container .about-header h1 a:hover {
+  text-decoration: underline;
+}
+@media (min-width: 600px) {
+  .about-top-content-container .about-header-container .about-header h1 {
+    font-size: 3.7rem;
+  }
+}
+.about-top-content-container .about-header-container .about-header .navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+}
+@media (min-width: 600px) {
+  .about-top-content-container .about-header-container .about-header .navigation {
+    width: 40%;
+  }
+}
+.about-top-content-container .about-header-container .about-header .navigation a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+@media (min-width: 600px) {
+  .about-top-content-container .about-header-container .about-header .navigation a {
+    font-size: 2.5rem;
+    padding-top: 0;
+  }
+}
+.about-top-content-container .about-header-container .about-header .navigation a:hover {
+  color: #cccccc;
+}
