@@ -1,0 +1,128 @@
+// reviews container less 
+
+.reviews-container {
+    // border: @border-size red; 
+    background: @ui-off-white; 
+    // padding-bottom: 20px; 
+
+    @media @desktop {
+        .column(); 
+        height: 560px; 
+
+        .reviews {
+            .row(); 
+            justify-content: space-evenly;
+        }
+    }
+
+    h1 {
+        // border: @border-size blue; 
+        color: @ui-dark-grey; 
+        font-weight: bold; 
+        padding: 50px 0 50px 20px; 
+
+        @media @desktop {
+            font-size: 3.8rem; 
+            padding: 50px 0 50px 50px; 
+        }
+    }
+
+    section {
+        border-left: 4px solid @ui-orange; 
+        margin: 0 auto 0 auto; 
+        height: 380px; 
+        width: 90%; 
+
+        @media @desktop {
+            border: none; 
+            width: 27.5%;   
+            margin: 20px 0 20px 0; 
+        }
+
+        .intro {
+            // border: @border-size gold; 
+            .row(); 
+            justify-content: space-between;
+            padding: 0 0 10px 30px; 
+
+            @media @desktop {
+                height: 170px; 
+                width: 100%; 
+                padding: 0 0 10px 0; 
+            }
+
+            img {
+                // border: @border-size green; 
+                border-radius: 90px; 
+                width: 40%; 
+                height: 40%; 
+
+                @media @desktop {
+                    width: 170px;
+                    height: 170px; 
+                    border-radius: 0;  
+                }
+            }
+
+            .name-top {
+                border-bottom: @border-size @ui-middle-grey; 
+                .column(); 
+                justify-content: space-evenly; 
+                height: 90px;  
+                width: 60%; 
+                
+                h3 {
+                    // border: @border-size green; 
+                    font-size: 2.6rem; 
+                    padding-left: 35px; 
+                }
+
+                p {
+                    // border: @border-size green; 
+                    color: @ui-middle-grey; 
+                    font-weight: lighter; 
+                    padding-left: 35px; 
+                }
+            }
+        }
+
+        .review-bottom {
+            // border: @border-size green;
+            padding: 15px 0 0 20px; 
+            color: @ui-light-blue;  
+            height: 150px; 
+
+            @media @desktop {
+                padding: 25px 0 0 0;
+
+                p {
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .julia-review {
+        border: none; 
+
+        .intro {
+            border-left: 4px solid @ui-orange; 
+            
+            @media @desktop {
+                border: none; 
+            }
+        }
+
+        .review-bottom {
+            border-left: 4px solid @ui-orange;
+            
+            @media @desktop {
+                border: none; 
+            }
+        }
+    }
+
+}

@@ -1,0 +1,194 @@
+// mission and middle content less 
+
+.mission-container {
+    // border: @border-size red; 
+    background: @ui-off-white;
+    height: 350px; 
+    .column(); 
+    justify-content: space-around; 
+
+    @media @desktop {
+        padding-top: 20px; 
+        height: 500px;
+        background: @ui-white;      
+    }
+
+
+    .mission {
+        // border: @border-size saddlebrown;
+        height: 180px;  
+        text-align: center; 
+        .column(); 
+        justify-content: space-between; 
+
+        @media @desktop {
+            height: 200px;
+        }
+
+        .mission-one {
+            // border: @border-size blue; 
+            font-size: 2.7rem; 
+            font-weight: bold; 
+            color: @ui-middle-grey; 
+
+            @media @desktop {
+                width: 50%; 
+                font-size: 3.4rem; 
+                margin: 0 auto 0 auto; 
+            }
+        }
+    
+        .mission-two {
+            // border: @border-size orange; 
+            color: @ui-dark-grey; 
+
+            @media @desktop {
+                br {
+                    display: none; 
+                }
+
+                margin: 0 auto 0 auto; 
+                width: 60%; 
+                font-size: 2.5rem; 
+            }
+        }
+    
+    }
+
+    .line {
+        border-top: @border-size @ui-light-grey;
+        width: 75%; 
+        margin: 0 auto 0 auto; 
+
+        @media @desktop {
+            width: 68%;      
+        }
+    }
+}
+
+@media @desktop {
+    .mission-container:after {
+        // border: @border-size gold; 
+        content: "What we're about"; 
+        font-size: 3.7rem; 
+        font-weight: bold; 
+        color: @ui-dark-grey; 
+        background: @ui-off-white; 
+        padding: 30px 0 30px 30px;
+    }         
+}
+
+.middle-content-container {
+    // border: @border-size blue; 
+    height: 1600px; 
+    background: @ui-off-white;
+    .column(); 
+    justify-content: space-between; 
+
+    @media @desktop {
+        .row();
+        height: 550px; 
+        justify-content: space-evenly;  
+
+        .reviews-container {
+            // border: @border-size green;
+            height: 460px; 
+            width: 30%;  
+            margin: 0 auto 0 auto; 
+        }     
+    }
+
+    h1 {
+        // border: @border-size yellow; 
+        background: linear-gradient(rgba(6, 58, 101, 0.9), rgba(0, 0, 0, 0.0));
+        color: @ui-white; 
+        font-weight: bold; 
+        font-size: 3.7rem; 
+        width: 100%;  
+        height: 65px; 
+        padding: 12px 0 0 10px; 
+
+        @media @desktop {
+            padding: 0 0 0 0;   
+        }
+
+    }
+
+    img {
+        // border: @border-size peru; 
+        height: 320px; 
+        width: 100%; 
+        position: absolute;
+
+        @media @desktop {
+            width: 430px;  
+        }
+    }
+
+    p {
+        // border: @border-size salmon; 
+        background: @ui-light-blue;
+        color: @ui-white; 
+        font-size: 2.3rem; 
+        height: 160px; 
+        text-align: center; 
+        padding: 30px 0 0 0;
+    }
+
+    .text {
+        // border: @border-size salmon; 
+        width: 100%; 
+        height: 450px;
+        .column(); 
+        justify-content: space-between;
+        position: relative;
+
+        h1 {
+            color: @ui-white; 
+
+            @media @desktop { 
+                padding: 10px 0 0 0; 
+                text-align: center; 
+                font-size: 3.7rem; 
+                letter-spacing: .2rem; 
+            }
+        }
+    }
+
+
+    .divider {
+        height: 100px; 
+
+        @media @desktop {
+            display: none; 
+        }
+
+        .line {
+            border-bottom: @border-size @ui-light-grey;
+            width: 85%; 
+            margin: 0 auto 0 auto; 
+            padding: 50px 0 0 0;
+        }
+    }
+
+    .bottom-space {
+        height: 40px; 
+    }
+}
+
+.bottom-divider {
+    // border: @border-size purple;
+    background: @ui-white; 
+    height: 60px; 
+
+    .line {
+        height: 25px; 
+        border-bottom: @border-size @ui-light-grey;
+        width: 85%; 
+        margin: 0 auto 0 auto; 
+
+        @media @desktop {
+            height: 30px;   
+        }
+    }
+}

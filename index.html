@@ -2,139 +2,190 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Bookr</title>
+    <title>Bookr</title>
 
-  <link href="css/index.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
 </head>
 
 <body>
     <div class="container">
         
-        <!-- header -->
-        <div class="header-container">
-            <header class="header">
-                <h1>Bookr</h1>
-    
-                <!-- navigation -->
-                <nav class="navigation">
-                    <a href="#">About</a>
-                    <a href="#">Sign In</a>
-                    <a href="#">Sign Up</a>
-                </nav>
-            </header> 
-        </div>
-        
         <!-- top content -->
         <section class="top-content-container">
-            <img src="img/Hero banner image.png" alt="Woman with curly hair reading a book."> 
+            <img src="img/hero-banner-blue.jpg" alt="Woman with curly hair reading a book."> 
+
+            <div class="header-container">
+                <header class="header">
+                    <h1>Bookr</h1>
             
+                    <!-- navigation -->
+                    <nav class="navigation">
+                        <a href="about.html">About</a>
+                        <a href="#">Sign In</a>
+                        <a href="#">Sign Up</a>
+                    </nav>
+                </header> 
+            </div>
+        
+                
             <section class="top-content">
-                <p><strong>Be the</br>future of</br> education</strong></p>
-                <p>Review the textbooks of tomorrow</p>
+                <section class="top-text">
+                    <p class="slogan"><strong>Be the</br> future of</br> education</strong></p>
+                    <p>Review the textbooks</br> of tomorrow</p>
+                </section>
+                <div class="sign-up-button"><a href="#">Sign Up!</a></div> 
             </section>
-
-            <p class="sign-up-button">Sign Up</p> 
-        </section>      
-
     
+        </section>      
+       
         <!-- mission -->
         <section class= "mission-container">
+            <div class="line"></div>
             <section class= "mission">
-                <p>We know how hard it is to find good educational material.</p>
-                <p>At Bookr, you can read and create reviews and ratings so you’ll always find the best books.</p>
+                <p class="mission-one">We know how hard it is to find good educational material.</p>
+                <p class="mission-two">At Bookr, you can read and </br>create reviews and ratings so</br> you’ll always find the best books.</p>
             </section>
+            <div class="line"></div>
         </section>
 
         <!-- middle content -->
         <section class="middle-content-container">
             <!-- read reviews -->
-            <section class="read-reviews-container">
-                <h1>Read Reviews</h1>
-                <img src="img/Read Reviews Image.png" alt="Woman reading a book indoors.">
-                <p>Decide which textbook to invest in by reading reviews by real teachers and students</p>
+            <section class="reviews-container">
+                <img src="img/read-reviews-crop-img.jpg" alt="Woman reading a book indoors.">
+
+                <div class="text">
+                    <h1>Read Reviews</h1>
+                    <p>Decide which textbook to invest</br> in by reading reviews by real</br> teachers and students</p>
+                </div>
+            </section>
+
+            <section class="divider">
+                <div class="line"></div>
             </section>
 
             <!-- write reviews -->
-            <section class="write-reviews-container">
-                <h1>Write Reviews</h1>
-                <img src="img/Write Reviews Image.png" alt="Man reading a book outdoors.">
-                <p>Share your opinion on your favorite books and help your academic community grow</p>
+            <section class="reviews-container">
+                <img src="img/write-reviews-image.jpg" alt="Man reading a book outdoors.">
+
+                <div class="text">
+                    <h1>Write Reviews</h1>
+                    <p>Share your opinion on your</br> favorite books and help your</br> academic community grow</p>
+                </div>  
+            </section>
+
+            <section class="divider">
+                <div class="line"></div>
             </section>
 
             <!-- connect on social -->
-            <section class="connect-social-container">
-                <h1>Connect on Social</h1>
-                <img src="img/Connect Image.png" alt="Three people on stairsteps looking at a computer.">
-                <p>Join Bookr Premium to post updates, share lesson plans, and create book lists</p>
+            <section class="reviews-container">
+                <img src="img/connect-img.jpg" alt="Three people on stairsteps looking at a computer.">
+
+                <div class="text">
+                    <h1>Connect on Social</h1>
+                    <p>Join Bookr Premium to post</br> updates, share lesson plans,<br> and create book lists</p>
+                </div>  
             </section>
+
+            <section class="bottom-space">
+            </section>
+        </section>
+
+        <section class="bottom-divider">
+            <div class="line"></div>
+            <div class="space"></div>
         </section>
 
         <!-- what people think -->
         <section class="reviews-container">
-            <h1>What People Think</h1>
+            <h1>What people think</h1>
 
-            <!-- marina's review -->
-            <section class="marina-review">
-                <img src="img/Marina Picture.png" alt="A picture of Marina">
-                <div class="marina-top">
-                    <h3>Marina K.</h3>
-                    <p>5th Grade Teacher</p>
-                </div>
-                <div class="marina-bottom">
-                    <p>Before I found Bookr, I had to read through every textbook the district selected myself. Now I can look up my book on the app before I even have to crack the spine!   </p>
-                </div>
-            </section>
+            <div class="reviews">
+                <!-- marina's review -->
+                <section class="marina-review">
+                    <div class="intro">
+                        <img src="img/Marina Picture.png" alt="A picture of Marina">
+                        <div class="name-top">
+                            <h3>Marina K.</h3>
+                            <p>5th Grade Teacher</p>
+                        </div>
+                    </div>
+                    
+                    <div class="review-bottom">
+                        <p>Before I found Bookr, I had to read through every textbook the district selected </br>myself. Now I can look up my book on</br> the app before I even have to</br> crack the spine!</p>
+                    </div>
+                </section>
 
-            <!-- john's review -->
-            <section class="john-review">
-                <img src="img/John Image.png" alt="A picture of John">
-                <div class="john-top">
-                    <h3>Marina K.</h3>
-                    <p>5th Grade Teacher</p>
-                </div>
-                <div class="john-bottom">
-                    <p>Before I found Bookr, I had to read through every textbook the district selected myself. Now I can look up my book on the app before I even have to crack the spine!   </p>
-                </div>
-            </section>
+                <!-- john's review -->
+                <section class="john-review">
+                    <div class="intro">
+                        <img src="img/John Image.png" alt="A picture of John">
+                        <div class="name-top">
+                            <h3>John B.</h3>
+                            <p>12th Grade Teacher</p>
+                        </div>
+                    </div>
+                    
+                    <div class="review-bottom">
+                        <p>I always want something better for my students, but I never felt like I had the time to investigate new books properly. Now I can get other teachers' opinions before I even have to assign a book.</p>
+                    </div>
+                </section>
 
-            <!-- julia's review -->
-            <section class="julia-review">
-                <img src="img/Julia Image.png" alt="A picture of Julia">
-                <div class="julia-top">
-                    <h3>Marina K.</h3>
-                    <p>5th Grade Teacher</p>
-                </div>
-                <div class="julia-bottom">
-                    <p>Before I found Bookr, I had to read through every textbook the district selected myself. Now I can look up my book on the app before I even have to crack the spine!   </p>
-                </div>
-            </section>
+                <!-- julia's review -->
+                <section class="julia-review">
+                    <div class="intro">
+                        <img src="img/Julia Image.png" alt="A picture of Julia">
+                        <div class="name-top">
+                            <h3>Julia M.</h3>
+                            <p>College Student</p>
+                        </div>
+                    </div>
+                    
+                    <div class="review-bottom">
+                        <p>A friend recommended this app to me, and I cannot stress how thankful I am! Now, before I enroll in a class, I can see what other students and teacher think of the book before I make a big investment.</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="bottom-divider">
+            <div class="line"></div>
         </section>
 
         <!-- bottom content -->
         <section class="bottom-content">
-            <p>Create an account and never miss the next big book in education again!</p>
-            <p class="sign-up-free-button">Sign up for free</button>
+            <p class="bottom-text">Create an account and never  miss the next big book in education again!</p>
+            <p class="sign-up-free-button"><a href="#">Sign up for free</a></button>
         </section>
 
         <!-- footer -->
         <footer>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-pinterest"></i>
-            <p>©2019 Bookr</p>
+            <div class="footer-line"></div>
+            <div class="social-media">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook-square"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-pinterest"></i> 
+            </div>
+            
+            <div class="legal-container">
+                <p class="credit">©2019 Bookr</p>
 
-            <section class="legal-stuff">
-                <p>Terms of Service</p>
-                <p>Private Policy</p>
-            </section>
+                <section class="legal-stuff">
+                    <p>Terms of Service</p>
+                    <p>Private Policy</p>
+                </section>
+            </div>
         </footer>
     </div>
 </body>
