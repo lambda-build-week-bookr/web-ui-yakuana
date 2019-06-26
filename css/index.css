@@ -625,6 +625,13 @@ p {
   width: 75%;
   margin: 0 auto 0 auto;
 }
+@media (min-width: 600px) {
+  .bottom-content .bottom-text {
+    font-size: 3rem;
+    word-spacing: 0.2rem;
+    width: 60%;
+  }
+}
 .bottom-content .sign-up-free-button {
   height: 50px;
   width: 200px;
