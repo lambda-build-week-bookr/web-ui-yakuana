@@ -1,25 +1,14 @@
 // about page less 
 
+// about top content container 
 .about-top-content-container {
     // border: @border-size purple; 
-    color: @ui-white; 
+    background: @ui-orange;
     position: relative;
-    height: 500px; 
+    height: 400px; 
 
     @media @desktop {
-        height: 900px; 
-    }
-    
-    img {
-        // border: @border-size orange; 
-        height: 500px;
-        width: 100%;
-        position: absolute; 
-
-        @media @desktop {
-            height: 900px; 
-        }
-        
+        height: 420px;  
     }
 
     .about-header-container {
@@ -30,6 +19,10 @@
         background:  linear-gradient(rgba(6, 58, 101, 0.9), rgba(0, 0, 0, 0.0));
         color: @ui-white;
         position: relative;
+
+        @media @desktop {
+            height: 80px; 
+        }
         
         .about-header {
             // border: @border-size red;
@@ -86,7 +79,7 @@
                     color: @ui-white;
 
                     @media @desktop {
-                        font-size: 2.5rem; 
+                        font-size: 2.4rem; 
                         padding-top: 0;
                     }
                 }
@@ -96,5 +89,150 @@
                 }
             }
         }
+    }
+
+    .about-top-content { 
+        // color: @dark-orange; 
+        text-align: center; 
+        position: absolute;
+        height: 70%; 
+
+        @media @desktop {
+            width: 100%; 
+            height: 75%;  
+            border: 3px solid @ui-off-white;
+        }
+
+        .top-text {
+            // border: @border-size green;
+            height: 100%;
+            .column(); 
+            justify-content: space-evenly; 
+        }
+
+        p {
+            width: 80%; 
+            margin: 0 auto 0 auto; 
+        }
+
+        .motto {
+            border: 4px solid @dark-orange; 
+            font-size: 2.4rem;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        .meet-us {
+            // font-family: @charter-font; 
+            font-size: 4rem; 
+            color: @ui-white; 
+            font-weight: normal; 
+            font-family: @charter-font; 
+            border: none;
+
+            @media @desktop {
+                font-size: 5rem; 
+            }
+        }
+
+    }
+}
+
+// text above introductions container 
+.the-team {
+    color: @ui-dark-blue; 
+    font-size: 5rem; 
+    padding: 20px 0 10px 20px; 
+    
+    h2 {
+        // border: @border-size red; 
+        width: 90%; 
+    }
+}
+
+// about introductions container 
+
+.introduction-container {
+    // border: @border-size red; 
+    background: @ui-off-white;
+    .column(); 
+    justify-content: space-evenly;  
+    padding: 30px 0; 
+
+    @media @desktop {
+        .row(); 
+        justify-content: space-evenly; 
+        flex-wrap: wrap; 
+        padding: 0; 
+    }
+
+    h2 {
+        // border: @border-size orange; 
+        font-size: 3.5rem; 
+        font-family: @charter-font; 
+        color: @ui-dark-blue; 
+    }
+    
+    img {
+        // border: @border-size blue; 
+        height: 200px; 
+        width: 200px; 
+        object-fit: cover; 
+        border-radius: 100px; 
+    }
+
+    .person {
+        border-left: 4px solid @ui-orange; 
+        background: @ui-white; 
+        width: 85%; 
+        .column(); 
+        justify-content: space-between; 
+        margin: 0 auto;   
+        padding-left: 15px; 
+
+        @media @desktop {
+            // border: @border-size green; 
+            border-top: 4px dashed @ui-orange;
+            height: 530px; 
+            width: 450px; 
+            margin: 30px 10px; 
+        }
+
+        .info {
+            // border: @border-size red; 
+            .row(); 
+            justify-content: space-between;
+            height: 200px; 
+        }
+
+    }
+
+    .person-intro {
+        border-bottom: @border-size @ui-black;
+        width: 60%; 
+        height: 60%;
+        padding-left: 20px; 
+        .column(); 
+        justify-content: space-evenly; 
+
+        .role {
+            color: @dark-orange; 
+        }
+    }
+
+    .statement {
+        // border: @border-size red; 
+        background: @ui-white; 
+        padding: 10px 0 20px 10px; 
+        text-align: left; 
+
+        @media @desktop {
+            height: 300px; 
+            font-size: 1.6rem; 
+        }
+    }
+
+    .ojo {
+        font-size: 2.7rem; 
     }
 }

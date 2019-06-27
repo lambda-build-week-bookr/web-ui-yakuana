@@ -6,6 +6,10 @@
     position: relative;
     height: 500px; 
 
+    @media @tablet {
+        height: 700px;
+    }
+
     @media @desktop {
         height: 900px; 
     }
@@ -15,6 +19,11 @@
         height: 500px;
         width: 100%;
         position: absolute; 
+        object-fit: cover; 
+
+        @media @tablet {
+            height: 700px; 
+        }
 
         @media @desktop {
             height: 900px; 
@@ -40,6 +49,10 @@
             margin-right: auto; 
             width: 470px; 
 
+            @media @tablet {
+                width: 90%; 
+            }
+
             @media @desktop {
                 height: 50px;
                 width: 95%; 
@@ -60,8 +73,12 @@
             .navigation {
                 // border: @border-size green; 
                 .row(); 
-                justify-content: space-around; 
+                justify-content: space-around;
                 width: 70%; 
+
+                @media @tablet {
+                    width: 55%;
+                }
 
                 @media @desktop {
                     width: 40%; 
@@ -75,6 +92,10 @@
                     font-size: 1.7rem; 
                     text-decoration: none; 
                     color: @ui-white;
+
+                    @media @tablet {
+                        font-size: 2rem;
+                    }
 
                     @media @desktop {
                         font-size: 2.5rem; 
@@ -96,9 +117,13 @@
         text-align: left;
         .column(); 
         justify-content: space-evenly;
+
+        @media @tablet {
+            height: 650px;
+        }
         
         @media @desktop {
-            height: 800px; 
+            height: 865px; 
         }
 
         .top-text {
@@ -117,6 +142,10 @@
                 width: 300px; 
                 padding: 0 0 10px 20px;
 
+                @media @tablet {
+                    font-size: 2.3rem;
+                }
+
                 @media @desktop {
                     width: 30%; 
                     padding: 10px 0 0 50px; 
@@ -133,6 +162,10 @@
                 font-weight: bold; 
                 padding-top: 20px; 
 
+                @media @tablet {
+                    font-size: 4rem;
+                }
+                
                 @media @desktop {
                     font-size: 5rem; 
                 }
@@ -151,13 +184,19 @@
 
             text-align: center; 
             font-size: 2.5rem; 
-            margin-left: 300px; 
+            margin-left: 60%; 
+
+            @media @tablet {
+                .buttons-dimensions(60px, 200px, 15px);
+
+                margin-left: 65%; 
+            }
 
             @media @desktop {
                 .buttons-dimensions(70px, 250px, 17px);
 
                 font-size: 3rem; 
-                margin-left: 70%; 
+                margin-left: 60%; 
                 border-radius: 15px; 
                 
             }

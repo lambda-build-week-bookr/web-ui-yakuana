@@ -8,7 +8,9 @@
     <title>Bookr</title>
 
     <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script src="./components/Carousel/Carousel.js" async></script>
     <!--[if lt IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
@@ -17,9 +19,10 @@
 <body>
     <div class="about-container">
 
+        <!-- top content container -->
         <section class="about-top-content-container">
-            <img src="img/white-cloud.jpg" alt="Woman with curly hair reading a book."> 
-
+            
+            <!-- navigation and logo container -->
             <div class="about-header-container">
                 <header class="about-header">
                     <h1><a href="index.html">Bookr</a></h1>
@@ -31,56 +34,161 @@
                         <a href="#">Sign Up</a>
                     </nav>
                 </header> 
-            </div>  
+            </div> 
+            
+            <section class="about-top-content">
+                <section class="top-text">
+                    <p class="meet-us"><strong>Meet the Innovators</strong></p>
+                    <p class="motto">A strong team working to make the future of education accessible to all.</p>
+                </section>
+            </section>
+
         </section>
 
+        <!-- CAROUSEL COMPONENT -->
+        <div class="carousel">
+            <div class="left-button"><</div>
+                <img src="img/start-up.jpg">
+                <img src="img/leaf-on-book.jpg">
+                <img src="img/open-book.jpg">
+                <img src="img/orange-books.jpg">
+                <img src="img/read-a-book.jpg">
+                <img src="img/stacked book.jpg">
+            <div class="right-button">></div>
+        </div>
 
-        <section class="introductions">
-            <section class="person-container">
-                <img />
+        <!-- the team text -->
+        <section class="the-team">
+            <h2>The Team:</h2>
+        </section>
 
+        <!-- team introductions container -->
+        <section class="introduction-container">
+            
+            <!-- arron -->
+            <section class="person">
                 <section class="info">
-                    <h2 class="name"></h1>
-                    <p class="statement"></p>
+                    <img src="img/arron-marshall.jpg" alt="An image of Arron Marshall.">
+                    <div class="person-intro">
+                        <h2 class="name">Arron<br/> Marshall</h2>
+                        <p class="role">Back End</p>
+                    </div>
                 </section>
+
+                <p class="statement">Working with our front-end architects, Oluwatimileyin (Tim) Ojo and Sunil Karki, I was able to build back-end API endpoints that meet the application functionality requirements. I am using dynamic data from Google Books API to seed based on category queries, with knex models to manage data access in SQLite and Postgres. Using apidocs and jest I have also been able to fully document and test the API endpoints for a more stable production build.</p>
             </section>
 
-            <section class="person-container">
-                <img />
-
+            <!-- colin -->
+            <section class="person">
                 <section class="info">
-                    <h2 class="name"></h1>
-                    <p class="statement"></p>
+                    <img src="img/colin-devries.jpg" alt="An image of Colin Devries">
+                    <div class="person-intro">
+                        <h2 class="name">Colin<br/> Devries</h2>
+                        <p class="role">Web UI Developer</p>
+                    </div>
                 </section>
+
+                <p class="statement">Working with our front-end architects, Oluwatimileyin (Tim) Ojo and Sunil Karki, I was able to build back-end API endpoints that meet the application functionality requirements. I am using dynamic data from Google Books API to seed based on category queries, with knex models to manage data access in SQLite and Postgres. Using apidocs and jest I have also been able to fully document and test the API endpoints for a more stable production build.</p>    
             </section>
 
-            <section class="person-container">
-                <img />
-
+            <!-- lauren -->
+            <section class="person">
                 <section class="info">
-                    <h2 class="name"></h1>
-                    <p class="statement"></p>
+                    <img src="img/Lauren_Chandler.jpg" alt="An image of Lauren Chandler">
+                    <div class="person-intro">
+                        <h2 class="name">Lauren<br/> Chandler</h2>
+                        <p class="role">UX Designer</p>
+                    </div>
                 </section>
+
+                <p class="statement">As a user experience designer, I create designs based on user interviews and my research of user needs. By testing sketches, flow diagrams, wireframes, and mockups with actual users, I'm able to ensure that our developers will build a relevant product and also that our users will receive a positive textbook review experience.</p>
             </section>
 
-            <section class="person-container">
-                <img />
-
+            <!-- nick -->
+            <section class="person">
                 <section class="info">
-                    <h2 class="name"></h1>
-                    <p class="statement"></p>
+                    <img src="img/nick-batmanglidj.jpg" alt="An image of Nick Batmanglidj">
+                    <div class="person-intro">
+                        <h2 class="name">Nick<br/> Batmanglidj</h2>
+                        <p class="role">Project Manager</p>
+                    </div>
                 </section>
+
+                <p class="statement">Working with our front-end architects, Oluwatimileyin (Tim) Ojo and Sunil Karki, I was able to build back-end API endpoints that meet the application functionality requirements.I am using dynamic data from Google Books API to seed based on category queries, with knex models to manage data access in SQLite and Postgres. Using apidocs and jest I have also been able to fully document and test the API endpoints for a more stable production build.</p>
             </section>
 
-            <section class="person-container">
-                <img />
-
+            <!-- ojo -->
+            <section class="person">
                 <section class="info">
-                    <h2 class="name"></h1>
-                    <p class="statement"></p>
+                    <img src="img/oluwatimileyin-ojo.jpg" alt="An image of Oluwatimileyin Ojo">
+                    <div class="person-intro">
+                        <h2 class="name ojo">Oluwatimileyin<br/> Ojo</h2>
+                        <p class="role">Front End Architect</p>
+                    </div>
                 </section>
+
+                <p class="statement">Working with our front-end architects, Oluwatimileyin (Tim) Ojo and Sunil Karki, I was able to build back-end API endpoints that meet the application functionality requirements. I am using dynamic data from Google Books API to seed based on category queries, with knex models to manage data access in SQLite and Postgres. Using apidocs and jest I have also been able to fully document and test the API endpoints for a more stable production build.</p>
+            </section>
+
+            <!-- sunil -->
+            <section class="person">
+                <section class="info">
+                    <img src="img/sunil-karki.png" alt="An image of Sunil Karki">
+                    <div class="person-intro">
+                        <h2 class="name">Sunil<br/> Karki</h2>
+                        <p class="role">Front End Architect</p>
+                    </div>
+                </section>
+
+                <p class="statement">Working with our front-end architects, Oluwatimileyin (Tim) Ojo and Sunil Karki, I was able to build back-end API endpoints that meet the application functionality requirements. I am using dynamic data from Google Books API to seed based on category queries, with knex models to manage data access in SQLite and Postgres. Using apidocs and jest I have also been able to fully document and test the API endpoints for a more stable production build.</p>
+            </section>
+
+            <!-- timothy -->
+            <section class="person">
+                <section class="info">
+                    <img src="img/timothy-mcgowen.jpg" alt="An image of Timothy McGowen">
+
+                    <div class="person-intro">
+                        <h2 class="name">Timothy<br/> McGowen</h2>
+                        <p class="role">Web UI Developer</p>
+                    </div>
+                </section>
+
+                <p class="statement">Using the Designs given to me by Lauren Chandler, our wonderful UX designer, I was able to build out the site she envisioned.Using HTML, CSS, LESS, and JS I also created an about page showing that I could take the design styles she laid out in the marketing page and translate that to an entirely new design.</p>
+            </section>
+
+            <!-- yakuana -->
+            <section class="person">
+                <section class="info">
+                    <img src="img/yakuana-davis.JPG" alt="An image of Ya'Kuana Davis">
+                    <div class="person-intro">
+                        <h2 class="name">Ya'Kuana<br/> Davis</h2>
+                        <p class="role">Web UI Developer</p>
+                    </div>
+                </section>
+
+                <p class="statement">With the help of Lauren Chandler's phenomenal designs and our team's back end developers, I was able to create my first website. Through trial and error, research and collaboration, I was able to materialize Lauren's vision.</p>
             </section>
         </section>
+
+        <footer>
+            <div class="footer-line"></div>
+            <div class="social-media">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook-square"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-pinterest"></i> 
+            </div>
+            
+            <div class="legal-container">
+                <p class="credit">©2019 Bookr</p>
+
+                <section class="legal-stuff">
+                    <p>Terms of Service</p>
+                    <p>Private Policy</p>
+                </section>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
