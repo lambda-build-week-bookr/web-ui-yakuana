@@ -375,7 +375,7 @@ p {
   color: #ffffff;
 }
 .top-content-container .top-content .sign-up-button a:hover {
-  color: #4d4d4d;
+  color: #808080;
 }
 .mission-container {
   background: #fff8f3;
@@ -1009,6 +1009,7 @@ footer .legal-container .legal-stuff {
     height: 530px;
     width: 450px;
     margin: 30px 10px;
+    padding-top: 20px;
   }
 }
 .introduction-container .person .info {
@@ -1038,6 +1039,7 @@ footer .legal-container .legal-stuff {
   .introduction-container .statement {
     height: 300px;
     font-size: 1.6rem;
+    padding: 15px 30px 20px 5px;
   }
 }
 .introduction-container .ojo {
