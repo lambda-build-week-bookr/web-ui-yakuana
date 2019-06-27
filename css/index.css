@@ -345,7 +345,7 @@ p {
   height: 50px;
   width: 140px;
   padding-top: 10px;
-  background: #F08A47;
+  background: #f7883e;
   color: #ffffff;
   border-radius: 10px;
   text-align: center;
@@ -375,7 +375,7 @@ p {
   color: #ffffff;
 }
 .top-content-container .top-content .sign-up-button a:hover {
-  color: #808080;
+  color: #964006;
 }
 .mission-container {
   background: #fff8f3;
@@ -619,7 +619,7 @@ p {
   }
 }
 .review-container section {
-  border-left: 4px solid #F08A47;
+  border-left: 4px solid #f7883e;
   margin: 0 auto 0 auto;
   height: 380px;
   width: 90%;
@@ -724,7 +724,7 @@ p {
   border: none;
 }
 .review-container .julia-review .intro {
-  border-left: 4px solid #F08A47;
+  border-left: 4px solid #f7883e;
 }
 @media (min-width: 800px) {
   .review-container .julia-review .intro {
@@ -732,7 +732,7 @@ p {
   }
 }
 .review-container .julia-review .review-bottom {
-  border-left: 4px solid #F08A47;
+  border-left: 4px solid #f7883e;
 }
 @media (min-width: 800px) {
   .review-container .julia-review .review-bottom {
@@ -763,7 +763,7 @@ p {
   height: 50px;
   width: 200px;
   padding-top: 10px;
-  background: #F08A47;
+  background: #f7883e;
   color: #ffffff;
   border-radius: 12px;
   font-weight: bold;
@@ -773,7 +773,7 @@ p {
   color: #ffffff;
 }
 .bottom-content .sign-up-free-button a:hover {
-  color: #333333;
+  color: #ae4a07;
 }
 footer {
   background: #fffffff9;
@@ -852,7 +852,7 @@ footer .legal-container .legal-stuff {
   }
 }
 .about-top-content-container {
-  background: #F08A47;
+  background: #f7883e;
   position: relative;
   height: 400px;
 }
@@ -900,7 +900,7 @@ footer .legal-container .legal-stuff {
   color: #ffffff;
 }
 .about-top-content-container .about-header-container .about-header h1 a:hover {
-  text-decoration: underline;
+  color: #000000;
 }
 @media (min-width: 800px) {
   .about-top-content-container .about-header-container .about-header h1 {
@@ -1012,7 +1012,7 @@ footer .legal-container .legal-stuff {
   border-radius: 100px;
 }
 .introduction-container .person {
-  border-left: 4px solid #F08A47;
+  border-left: 4px solid #f7883e;
   background: #ffffff;
   width: 85%;
   display: flex;
@@ -1023,7 +1023,7 @@ footer .legal-container .legal-stuff {
 }
 @media (min-width: 800px) {
   .introduction-container .person {
-    border-top: 4px dashed #F08A47;
+    border-top: 4px dashed #f7883e;
     height: 530px;
     width: 450px;
     margin: 30px 10px;
@@ -1080,7 +1080,7 @@ footer .legal-container .legal-stuff {
   align-items: none;
   flex-direction: row;
   color: #ffffff;
-  background-color: #F08A47;
+  background-color: #f7883e;
   font-size: 40px;
   border-radius: 50%;
   position: absolute;

@@ -34,8 +34,8 @@ The About Page (About) uses:
         * [Carousel.js]
 
 Both the Home Page and the About Page Use: 
-* [global.less] 
-    * [reset.less] 
+* [global.less] - used from previous assignment
+    * [reset.less] - used from previous assignment
     * [index.css] 
     * [index.less]
     * [variables.less]  
