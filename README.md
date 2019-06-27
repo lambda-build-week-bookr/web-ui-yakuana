@@ -12,6 +12,7 @@ https://invis.io/GUSMYGBSCM6#/370104957_1_Landing_Page
 Desktop Invision Link:
 https://invis.io/Z2SOP7MY3RA#/370642848_1_Desktop_Landing_Page
 
+This site was built using a mobile-first design. 
 
 ## The Files - My contribution 
 
