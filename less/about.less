@@ -2,7 +2,7 @@
 
 // about top content container 
 .about-top-content-container {
-    border: @border-size purple; 
+    // border: @border-size purple; 
     background: @ui-orange;
     position: relative;
     height: 400px; 
@@ -128,30 +128,65 @@
 // about introductions container 
 
 .introduction-container {
-    border: @border-size red; 
+    // border: @border-size red; 
     background: @ui-off-white;
     .column(); 
-    justify-content: space-evenly; 
-    flex-wrap: wrap; 
+    justify-content: space-evenly;  
+    padding: 30px 0; 
+
+    h2 {
+        // border: @border-size orange; 
+        font-size: 3.5rem; 
+        font-family: @charter-font; 
+        color: @ui-dark-blue; 
+    }
     
     img {
-        border: @border-size blue; 
+        // border: @border-size blue; 
         height: 200px; 
         width: 200px; 
         object-fit: cover; 
+        border-radius: 100px; 
     }
 
     .person {
-        border: @border-size green; 
-        width: 100%; 
-        .row(); 
+        border-left: 4px solid @ui-orange; 
+        background: @ui-white; 
+        width: 85%; 
+        .column(); 
         justify-content: space-between; 
+        margin: 0 auto;   
+        padding-left: 15px; 
+
+        .info {
+            // border: @border-size red; 
+            .row(); 
+            justify-content: space-between;
+            height: 200px; 
+        }
 
     }
 
-    h2 {
-        border: @border-size orange; 
-        font-size: 3rem; 
-        color: @ui-dark-blue; 
+    .person-intro {
+        border-bottom: @border-size @ui-black;
+        width: 60%; 
+        height: 60%;
+        padding-left: 20px; 
+        .column(); 
+        justify-content: space-evenly; 
+
+        .role {
+            color: @dark-orange; 
+        }
+    }
+
+    .statement {
+        background: @ui-white; 
+        padding: 10px 0 20px 10px; 
+        text-align: left; 
+    }
+
+    .ojo {
+        font-size: 2.7rem; 
     }
 }
