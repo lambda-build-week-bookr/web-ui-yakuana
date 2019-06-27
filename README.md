@@ -50,3 +50,8 @@ The links provided will lead you the Bookr team's front end designer's content. 
 
 Oluwatimileyin Ojo's link: 
 https://bookr1.netlify.com
+
+
+## The Images 
+
+All of the images used are in the img folder in no particular order. Some are .png and some are .jpg. All home page images are also in Lauren's design file. 

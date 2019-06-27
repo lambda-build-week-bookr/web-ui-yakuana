@@ -6,7 +6,8 @@
 
     @media @desktop {
         .column(); 
-        height: 560px; 
+        height: auto; 
+        padding-bottom: 60px; 
 
         .reviews {
             .row(); 
@@ -40,6 +41,7 @@
         @media @desktop {
             border: none; 
             width: 27.5%;   
+            // height: auto; 
             margin: 20px 0 20px 0; 
         }
 
@@ -50,7 +52,7 @@
             padding: 0 0 10px 30px; 
 
             @media @desktop {
-                height: 170px; 
+                // height: 200px; 
                 width: 100%; 
                 padding: 0 0 10px 0; 
             }
@@ -78,18 +80,30 @@
                 @media @tablet { 
                     margin-top: 30px; 
                 }
+
+                @media @desktop {
+                    height: 50%; 
+                }
                 
                 h3 {
                     // border: @border-size green; 
                     font-size: 2.6rem; 
                     padding-left: 35px; 
+
+                    @media @desktop {
+                        margin-bottom: 10px; 
+                    }
                 }
 
                 p {
-                    // border: @border-size green; 
+                    // border: @border-size blue; 
                     color: @ui-middle-grey; 
                     font-weight: lighter; 
                     padding-left: 35px;
+
+                    @media @desktop {
+                        padding-bottom: 10px; 
+                    }
                 }
             }
         }
@@ -113,6 +127,7 @@
 
             @media @desktop {
                 padding: 25px 0 0 0;
+                height: auto; 
 
                 p {
                     br {
