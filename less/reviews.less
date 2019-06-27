@@ -1,7 +1,7 @@
 // reviews container less 
 
-.reviews-container {
-    // border: @border-size red; 
+.review-container {
+    border: @border-size red; 
     background: @ui-off-white; 
     // padding-bottom: 20px; 
 
@@ -16,10 +16,14 @@
     }
 
     h1 {
-        // border: @border-size blue; 
+        border: @border-size blue; 
         color: @ui-dark-grey; 
         font-weight: bold; 
         padding: 50px 0 50px 20px; 
+
+        @media @tablet {
+
+        }
 
         @media @desktop {
             font-size: 3.8rem; 
@@ -33,6 +37,10 @@
         height: 380px; 
         width: 90%; 
 
+        @media @tablet {
+            
+        }
+
         @media @desktop {
             border: none; 
             width: 27.5%;   
@@ -44,6 +52,10 @@
             .row(); 
             justify-content: space-between;
             padding: 0 0 10px 30px; 
+            
+            @media @tablet {
+            
+            }
 
             @media @desktop {
                 height: 170px; 
@@ -56,6 +68,10 @@
                 border-radius: 90px; 
                 width: 40%; 
                 height: 40%; 
+
+                @media @tablet {
+            
+                }
 
                 @media @desktop {
                     width: 170px;
@@ -92,6 +108,10 @@
             color: @ui-light-blue;  
             height: 150px; 
 
+            @media @tablet {
+            
+            }
+
             @media @desktop {
                 padding: 25px 0 0 0;
 
@@ -110,7 +130,10 @@
 
         .intro {
             border-left: 4px solid @ui-orange; 
+            @media @tablet {
             
+            }
+
             @media @desktop {
                 border: none; 
             }
@@ -119,6 +142,10 @@
         .review-bottom {
             border-left: 4px solid @ui-orange;
             
+            @media @tablet {
+            
+            }
+
             @media @desktop {
                 border: none; 
             }

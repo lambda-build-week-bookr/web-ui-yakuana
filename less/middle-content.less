@@ -83,7 +83,11 @@
     height: 1600px; 
     background: @ui-off-white;
     .column(); 
-    justify-content: space-between; 
+    justify-content: space-between;
+    
+    @media @tablet {
+        height: 2000px;   
+    }
 
     @media @desktop {
         .row();
@@ -94,7 +98,7 @@
             // border: @border-size green;
             height: 460px; 
             width: 30%;  
-            margin: 0 auto 0 auto; 
+            margin: 0 auto 0 auto;
         }     
     }
 
@@ -108,6 +112,7 @@
         height: 65px; 
         padding: 12px 0 0 10px; 
 
+
         @media @desktop {
             padding: 0 0 0 0;   
         }
@@ -120,8 +125,13 @@
         width: 100%; 
         position: absolute;
 
+        @media @tablet {
+            height: auto; 
+        }
+
         @media @desktop {
-            width: 430px;  
+            width: 30%;
+            // object-fit: contain;   
         }
     }
 
@@ -133,6 +143,11 @@
         height: 160px; 
         text-align: center; 
         padding: 30px 0 0 0;
+
+        @media @tablet {
+            font-size: 2.5rem; 
+            padding: 25px 0 0 0; 
+        }
     }
 
     .text {
@@ -142,6 +157,14 @@
         .column(); 
         justify-content: space-between;
         position: relative;
+
+        @media @tablet {
+            height: 600px;
+        }
+
+        @media @desktop {
+            height: 460px;
+        }
 
         h1 {
             color: @ui-white; 

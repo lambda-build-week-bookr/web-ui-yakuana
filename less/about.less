@@ -2,25 +2,12 @@
 
 // about top content container 
 .about-top-content-container {
-    // border: @border-size purple; 
-    color: @ui-white; 
+    border: @border-size purple; 
+    background: @ui-orange;
     position: relative;
-    height: 500px; 
-
+    height: 400px; 
     @media @desktop {
         height: 900px; 
-    }
-    
-    img {
-        // border: @border-size orange; 
-        height: 500px;
-        width: 100%;
-        position: absolute; 
-
-        @media @desktop {
-            height: 900px; 
-        }
-        
     }
 
     .about-header-container {
@@ -120,10 +107,8 @@
 
         .motto {
             border: 4px solid @dark-orange; 
-            font-size: 2.7rem;
+            font-size: 2.4rem;
             font-weight: bold;
-            font-family: @charter-font; 
-            // text-shadow: 0 1px @ui-orange;   
             padding: 20px; 
         }
 
@@ -132,6 +117,7 @@
             font-size: 4rem; 
             color: @ui-white; 
             font-weight: normal; 
+            font-family: @charter-font; 
             border: none;
         }
 
@@ -143,5 +129,29 @@
 
 .introduction-container {
     border: @border-size red; 
-    background: @ui-off-white; 
+    background: @ui-off-white;
+    .column(); 
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+    
+    img {
+        border: @border-size blue; 
+        height: 200px; 
+        width: 200px; 
+        object-fit: cover; 
+    }
+
+    .person {
+        border: @border-size green; 
+        width: 100%; 
+        .row(); 
+        justify-content: space-between; 
+
+    }
+
+    h2 {
+        border: @border-size orange; 
+        font-size: 3rem; 
+        color: @ui-dark-blue; 
+    }
 }
