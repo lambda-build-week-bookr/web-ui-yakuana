@@ -438,8 +438,14 @@ p {
     width: 68%;
   }
 }
+@media (min-width: 600px) {
+  .what-about {
+    visibility: hidden;
+  }
+}
 @media (min-width: 800px) {
   .what-about {
+    visibility: visible;
     font-size: 3.7rem;
     font-weight: bold;
     color: #454344;
@@ -507,6 +513,7 @@ p {
   .middle-content-container img {
     width: 30%;
     height: 400px;
+    object-fit: cover;
   }
 }
 .middle-content-container p {
@@ -646,7 +653,7 @@ p {
 @media (min-width: 800px) {
   .review-container section .intro {
     width: 100%;
-    padding: 0 0 10px 0;
+    padding: 0;
   }
 }
 .review-container section .intro img {
@@ -656,8 +663,6 @@ p {
 }
 @media (min-width: 800px) {
   .review-container section .intro img {
-    width: 170px;
-    height: 170px;
     border-radius: 0;
   }
 }
@@ -676,6 +681,8 @@ p {
 }
 @media (min-width: 800px) {
   .review-container section .intro .name-top {
+    margin-top: 0;
+    padding-top: 10px;
     height: 50%;
   }
 }
@@ -713,8 +720,11 @@ p {
 }
 @media (min-width: 800px) {
   .review-container section .review-bottom {
-    padding: 25px 0 0 0;
+    padding: 20px 0 0 0;
     height: auto;
+  }
+  .review-container section .review-bottom p {
+    word-spacing: 1.5px;
   }
   .review-container section .review-bottom p br {
     display: none;
@@ -852,7 +862,7 @@ footer .legal-container .legal-stuff {
   }
 }
 .about-top-content-container {
-  background: #f7883e;
+  background: #325080;
   position: relative;
   height: 400px;
 }
@@ -960,7 +970,7 @@ footer .legal-container .legal-stuff {
 }
 .about-top-content-container .about-top-content .motto {
   border: 4px solid #ce590a;
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   font-weight: bold;
   padding: 20px;
 }
@@ -985,7 +995,7 @@ footer .legal-container .legal-stuff {
   width: 90%;
 }
 .introduction-container {
-  background: #fff8f3;
+  background: #fff1e9;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -1052,11 +1062,12 @@ footer .legal-container .legal-stuff {
   background: #ffffff;
   padding: 10px 10px 20px 10px;
   text-align: left;
+  font-family: "Bitstream Charter";
 }
 @media (min-width: 800px) {
   .introduction-container .statement {
     height: 300px;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     padding: 15px 30px 20px 5px;
   }
 }
