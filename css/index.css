@@ -960,7 +960,7 @@ footer .legal-container .legal-stuff {
 }
 .about-top-content-container .about-top-content .motto {
   border: 4px solid #ce590a;
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   font-weight: bold;
   padding: 20px;
 }
@@ -1056,8 +1056,9 @@ footer .legal-container .legal-stuff {
 @media (min-width: 800px) {
   .introduction-container .statement {
     height: 300px;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     padding: 15px 30px 20px 5px;
+    font-family: "Bitstream Charter";
   }
 }
 .introduction-container .ojo {
