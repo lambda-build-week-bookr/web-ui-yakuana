@@ -438,8 +438,14 @@ p {
     width: 68%;
   }
 }
+@media (min-width: 600px) {
+  .what-about {
+    visibility: hidden;
+  }
+}
 @media (min-width: 800px) {
   .what-about {
+    visibility: visible;
     font-size: 3.7rem;
     font-weight: bold;
     color: #454344;
@@ -507,6 +513,7 @@ p {
   .middle-content-container img {
     width: 30%;
     height: 400px;
+    object-fit: cover;
   }
 }
 .middle-content-container p {
@@ -646,7 +653,7 @@ p {
 @media (min-width: 800px) {
   .review-container section .intro {
     width: 100%;
-    padding: 0 0 10px 0;
+    padding: 0;
   }
 }
 .review-container section .intro img {
@@ -656,8 +663,6 @@ p {
 }
 @media (min-width: 800px) {
   .review-container section .intro img {
-    width: 170px;
-    height: 170px;
     border-radius: 0;
   }
 }
@@ -676,6 +681,8 @@ p {
 }
 @media (min-width: 800px) {
   .review-container section .intro .name-top {
+    margin-top: 0;
+    padding-top: 10px;
     height: 50%;
   }
 }
@@ -713,8 +720,11 @@ p {
 }
 @media (min-width: 800px) {
   .review-container section .review-bottom {
-    padding: 25px 0 0 0;
+    padding: 20px 0 0 0;
     height: auto;
+  }
+  .review-container section .review-bottom p {
+    word-spacing: 1.5px;
   }
   .review-container section .review-bottom p br {
     display: none;
