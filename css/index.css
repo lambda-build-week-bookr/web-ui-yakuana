@@ -985,7 +985,7 @@ footer .legal-container .legal-stuff {
   width: 90%;
 }
 .introduction-container {
-  background: #fff8f3;
+  background: #fff1e9;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -1052,13 +1052,13 @@ footer .legal-container .legal-stuff {
   background: #ffffff;
   padding: 10px 10px 20px 10px;
   text-align: left;
+  font-family: "Bitstream Charter";
 }
 @media (min-width: 800px) {
   .introduction-container .statement {
     height: 300px;
     font-size: 1.9rem;
     padding: 15px 30px 20px 5px;
-    font-family: "Bitstream Charter";
   }
 }
 .introduction-container .ojo {
